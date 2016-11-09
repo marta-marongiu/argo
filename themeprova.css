@@ -1,0 +1,122 @@
+body {
+	background-image: url(out-of-focus.jpg);
+	background-repeat: no-repeat center center-fixed;
+	background-size: cover;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	display: block;
+}
+
+header{
+	width: 100%;
+	display: block;
+}
+
+.square-logo {
+	width: 200px;
+	height: 200px;
+	background-color: #fb9732;
+	color: white;
+	text-align: center;
+	font-size: 26px;
+	display: inline-block;
+	float: left;
+	padding-top: 70px;
+}
+
+.square-transparent {
+	width: 200px;
+	height: 200px;
+	background-color: transparent;
+	display: inline-block;
+	float: left;
+}
+
+
+.box-container {
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	display: block;
+	float: left;
+}
+
+.square-text {
+	width: 600px;
+	height: 200px;
+	display: inline-block;
+	float: left;
+	background-color: transparent;
+	text-align: right;
+	color: white;
+	padding-top: 30px;
+	padding-right: 30px;
+}
+
+h2 {
+	font-stretch: extra-condensed;
+}
+
+.square-icon {
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+	float: left;
+	text-align: center;
+	padding-top: 50px;
+	font-size: 20px;
+	color: white;
+
+}
+
+.square-img {
+	width: 200px;
+	height: 200px;
+	background-color: white;
+	display: inline-block;
+	float: left;
+}
+
+.square-icon:nth-child(3) {
+	background-color: #e23e18; 
+	padding-top: 40px;
+}
+
+.square-icon:nth-child(10) {
+	background-color: #fb9732;
+}
+
+.square-icon:nth-child(6) {
+	background-color: #e23e18;
+}
+
+.square-icon:nth-child(7) {
+	background-color: #fb9732;
+}
+
+.square-icon:nth-child(15) {
+	background-color: #fb9732;
+}
+
+.square-icon p {
+	margin-top: 10px;
+}
+
+.square-icon img:hover {
+	width: 100px;
+	height: 100px;
+}
+
+.contact {
+	align-content: center;
+	width: 100%;
+	float: left;
+	text-align: center;
+	margin-top: 30px;
+	color: white;
+}
+
+.contact a {
+	color: white;
+}
